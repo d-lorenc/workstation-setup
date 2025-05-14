@@ -26,7 +26,7 @@ brew install remotemobprogramming/brew/mob
 
 echo "Installing git UI tools"
 set +e # Optional; don't exit if they fail
-brew install --cask rowanj-gitx
+brew install gitx
 brew install --cask sourcetree
 brew install --cask gitup
 set -e
